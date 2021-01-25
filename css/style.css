@@ -24,10 +24,27 @@ body {
   color:
 }
 
+h1 {
+  font-size: 50px;
+  color: #33475B;
+  font-weight: 700;
+}
+
+p {
+  font-style: 18px;
+  line-height: 30px;
+  color: #405164;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #405164;
+}
 
 /* /type */
 
-/*/ type */
+
 
 .color-pink {
   background-color: #F4F9FD;
@@ -47,9 +64,10 @@ body {
 }
 .eng {
   display: inline-block;
-  border-right: 2px solid black;
+  border-right: 2px solid #899397;
   padding-right: 4%;
 }
+
 .contact {
   display: inline-block;
   padding-left: 4%;
@@ -71,7 +89,7 @@ body {
 
 #login {
   background-color: white;
-  color: #ff7a59;
+  color:
 }
 /* /nav top */
 
@@ -103,3 +121,39 @@ body {
   margin-left: 10px;
 }
 /* /nav bottom */
+
+.hero {
+  background-color:#FFF2EE;
+  height: 612px;
+  width: 100%;
+  background-image: url('../img/jumbotron.png');
+  position: relative;
+}
+
+.titolo {
+ width: 50%;
+ margin: 0 10%;
+ padding-top: 8%;
+
+}
+
+.titolo p {
+  margin: 4% 0%;
+}
+
+.titolo .btn  {
+  margin-top: 7%;
+  padding: 10px 15px;
+}
+.titolo .btn a {
+  margin-top: 7%;
+  padding: 20px 30px;
+}
+
+#band {
+  background-color: #AFEBE4;
+  height: 90px;
+  width: 100%;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+}
