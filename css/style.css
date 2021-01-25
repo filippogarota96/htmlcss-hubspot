@@ -32,7 +32,7 @@ h1 {
 
 p {
   font-style: 18px;
-  line-height: 30px;
+  line-height:  25px;
   color: #405164;
   font-weight: 500;
 }
@@ -42,9 +42,35 @@ a {
   color: #405164;
 }
 
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #33475B;
+}
+
+.clearfix::after {
+  content:'';
+  display: block;
+  clear: both;
+}
+
+.box {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 11px #eaf0f6;
+}
+
+.fa-check-circle {
+  color: #FE775A;
+}
+
+h3 {
+    color: #33475B;
+    font-size: 25px;
+}
 /* /type */
 
-
+/* intestazione */
 
 .color-pink {
   background-color: #F4F9FD;
@@ -132,7 +158,7 @@ a {
 
 .titolo {
  width: 50%;
- margin: 0 10%;
+ margin: 0 7%;
  padding-top: 8%;
 
 }
@@ -157,3 +183,104 @@ a {
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
 }
+/*/ intestazione */
+
+/* corpo della pagina */
+
+/* sezione cubo  */
+
+.cube {
+  background-color: #F4F9FD;
+  height: 200vh;
+}
+
+.cube-title {
+  text-align: center;
+  padding: 80px 13%;
+
+}
+.cube-title img {
+  height: 200px;
+}
+
+.cube-title p {
+  margin: 20px 0;
+}
+
+
+.freehub {
+  height: 300px;
+}
+
+/* box freehub */
+.box-left {
+  width: 30%;
+  height: 300px;
+  float: left;
+  text-align: center;
+  padding: 30px 0;
+
+}
+
+.box-left img {
+  height: 110px;
+  margin: 20px 0;
+}
+
+.box-left > div {
+  margin: 20px 0;
+}
+.box-right {
+  width: 70%;
+  height: 300px;
+  float: left;
+  padding: 45px 40px;
+}
+
+
+.box-right div, .box-right hr, .box-right li {
+  display: inline-block;
+}
+
+.box-right hr {
+  width: 65%;
+  margin-left: 40px;
+  vertical-align: middle;
+  margin-bottom: 2px;
+  border: 1px solid #899397;
+}
+
+.box-right p {
+  margin: 30px 0;
+}
+.box-right li {
+  list-style: none;
+  margin-top: 40px;
+  padding: 2%;
+  font-weight: 500;
+  color: #405164;
+}
+
+.box-right span {
+  margin-left: 8px;
+}
+/* box freehub */
+
+
+/* /sezione cubo  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /corpo della pagina */
