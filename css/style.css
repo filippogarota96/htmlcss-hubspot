@@ -21,8 +21,8 @@ body {
   border-radius: 5px;
   padding: 10px 8px;
   text-decoration: none;
-  color:
 }
+
 
 h1 {
   font-size: 50px;
@@ -31,7 +31,7 @@ h1 {
 }
 
 p {
-  font-style: 18px;
+  font-style: 17px;
   line-height:  25px;
   color: #405164;
   font-weight: 500;
@@ -57,7 +57,7 @@ h2 {
 .box {
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 0 11px #eaf0f6;
+  box-shadow: 0 0 16px #eaf0f6;
 }
 
 .fa-check-circle {
@@ -67,6 +67,10 @@ h2 {
 h3 {
     color: #33475B;
     font-size: 25px;
+}
+
+li {
+  list-style: none;
 }
 /* /type */
 
@@ -191,7 +195,7 @@ h3 {
 
 .cube {
   background-color: #F4F9FD;
-  height: 200vh;
+
 }
 
 .cube-title {
@@ -242,6 +246,10 @@ h3 {
   display: inline-block;
 }
 
+.feature {
+  font-weight: 700;
+  color: #405164;
+}
 .box-right hr {
   width: 65%;
   margin-left: 40px;
@@ -266,6 +274,45 @@ h3 {
 }
 /* box freehub */
 
+
+.col {
+  float: left;
+  width: 30%;
+  margin: 50px 0;
+  padding: 0 3%;
+
+}
+
+.col img {
+  max-height: 110px;
+  margin-top: 40px;
+}
+.col p {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.col hr {
+  width: 80%;
+  margin: auto;
+  border: 1px solid #899397;
+}
+
+.col li {
+  padding: 1% 0;
+}
+.col span {
+  margin-left: 8px;
+}
+
+.col .btn {
+  text-align: center;
+  margin: 56px 0;
+}
+
+.col a {
+  padding: 15px 25px;
+}
 
 /* /sezione cubo  */
 
