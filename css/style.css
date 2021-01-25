@@ -11,28 +11,34 @@ body {
 .container {
   width: 80%;
   margin: auto;
+  position: relative;
 }
 
-.btn {
+.btn a {
   background-color: #ff7a59;
   color: #fff;
   border: 1px solid #ff7a59;
-  padding: 6px 10px;
+  border-radius: 5px;
+  padding: 10px 8px;
+  text-decoration: none;
+  color:
 }
 
 
-#login {
+/* /type */
 
-
-}
 /*/ type */
+
+.color-pink {
+  background-color: #F4F9FD;
+  border-bottom: 2px solid black;
+}
 
 /* nav top */
 
 .nav-top {
-  padding: 2% 0;
+  padding: 3% 0;
   position: relative;
-  border-bottom: 2px solid black;
 }
 
 .nav-lang {
@@ -59,10 +65,41 @@ body {
 .nav-buttons li {
   display: inline-block;
   list-style: none;
-  padding:  0 2%;
-
+  margin: 0 2%;
+  position: relative;
 }
 
-
-
+#login {
+  background-color: white;
+  color: #ff7a59;
+}
 /* /nav top */
+
+/* nav bottom */
+.color-white {
+  background-color: white;
+}
+.nav-bottom {
+  padding: 3% 0;
+}
+.logo {
+  display: inline-block;
+}
+.nav-arrows{
+  display: inline-block;
+  text-align: right;
+  position: absolute;
+  right: 50px;
+}
+.nav-arrows li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+  font-weight: 500;
+}
+
+.nav-arrows li span {
+  display: inline-block;
+  margin-left: 10px;
+}
+/* /nav bottom */
