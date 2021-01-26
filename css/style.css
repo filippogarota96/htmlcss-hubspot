@@ -11,7 +11,7 @@ body {
 .container {
   width: 80%;
   margin: auto;
-  position: relative;
+  
 }
 
 .btn a {
@@ -393,7 +393,7 @@ li {
 
 .customers-left h2 {
   margin-bottom: 20px;
-  
+
 }
 
 
@@ -405,22 +405,18 @@ li {
 }
 
 .logo-customer {
-  float: left;
-  width: 20%;
+  float: right;
+  width: 16%;
   margin-left: 20px;
 }
 
 .logo-customer img {
-  max-height: 100%;
-  max-width: 100%;
+  width: 100%;
 }
 
-.position {
-  padding-top: 10px;
-}
 
 .logo-row-up {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 .logo-row-down {
   vertical-align: middle;
