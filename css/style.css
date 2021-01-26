@@ -330,9 +330,10 @@ li {
 
 .grid {
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
-  height: 600px;
-
+  padding-bottom: 80px;
+  margin-bottom: 70px;
 }
+
 .grid-title h3 {
   text-align: center;
   color: white;
@@ -376,18 +377,53 @@ li {
 .box-grid:not(.last) {
   border-right: 1px solid white;
 }
-
-
 /* /sezione grid  */
 
 
+.customers {
+  height: 100vh;
+}
+.customers-left {
+  width: 30%;
+  float: left;
+  text-align: center;
+  padding: 5px 30px;
+}
 
 
+.customers-right {
+  width: 70%;
+  float: left;
+  margin-top: 13px;
 
+}
 
+.logo-customer {
+  float: left;
+  width: 20%;
+  margin-left: 20px;
+}
 
+.logo-customer img {
+  max-height: 100%;
+  max-width: 100%;
+}
 
+.position {
+  padding-top: 10px;
+}
 
+.logo-row-up {
+  margin-bottom: 100px;
+}
+.logo-row-down {
+
+  height: 200px;
+  vertical-align: middle;
+}
+.centered {
+  padding-top: 5px;
+}
 
 
 
