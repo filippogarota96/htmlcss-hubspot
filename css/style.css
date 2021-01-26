@@ -11,8 +11,8 @@ body {
 .container {
   width: 80%;
   margin: auto;
-  
 }
+
 
 .btn a {
   background-color: #ff7a59;
@@ -385,17 +385,21 @@ li {
 }
 
 /* container loghi  */
+
+.logos {
+  margin-left: 14%;
+}
 .customers-left {
-  width: 30%;
+  width: 19%;
   float: left;
-  padding: 5px 40px;
+  margin-right: 9%;
+  margin-left: 2%;
 }
 
 .customers-left h2 {
   margin-bottom: 20px;
 
 }
-
 
 .customers-right {
   width: 70%;
@@ -404,29 +408,29 @@ li {
 
 }
 
+
 .logo-customer {
-  float: right;
+  display: inline-block;
   width: 16%;
   margin-left: 20px;
+  vertical-align: middle;
+
 }
 
 .logo-customer img {
   width: 100%;
+
 }
-
-
 .logo-row-up {
   margin-bottom: 40px;
 }
-.logo-row-down {
-  vertical-align: middle;
-}
-.centered {
-  padding-top: 5px;
-}
 
+.logo-row-up, .logo-row-down {
+  margin-left: 6%;
+}
 /* /container loghi  */
 /* container img e titolo-bottom */
+
 .get-started {
   font-size: 12px;
   padding: 30px 0;
@@ -435,9 +439,8 @@ li {
 .titolo-bottom {
   float: left;
   margin-left: 0;
-  width: 40%;
+  width: 49%;
 }
-
 
 .girl {
   float: left;
@@ -446,13 +449,10 @@ li {
   padding-left: 23%;
 }
 
-
 .girl img {
   height: 400px;
   margin-left: 1%;
 }
-
 /*/ container img e tiolo-bottom */
-
 /* /sezione customers */
 /* /corpo della pagina */
