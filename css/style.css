@@ -343,18 +343,18 @@ li {
   color: white;
 }
 
-.row {
+.row-up {
   margin-top: 40px;
+  border-bottom: 2px solid white;
 }
 
 .box-grid {
   width: 25%;
   height: 150px;
   text-align: center;
-  border-right: 2px solid white;
   float: left;
+  padding-top: 20px;
 }
-
 
 .number {
   font-size: 30px;
@@ -369,6 +369,12 @@ li {
 .small {
   font-size: 13px;
 }
+
+.box-grid:not(.last) {
+  border-right: 1px solid white;
+}
+
+
 /* /sezione grid  */
 
 
