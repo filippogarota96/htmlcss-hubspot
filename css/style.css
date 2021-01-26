@@ -40,6 +40,7 @@ p {
 a {
   text-decoration: none;
   color: #405164;
+  font-size: 14px;
 }
 
 h2 {
@@ -57,7 +58,7 @@ h2 {
 .box {
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 0 16px #eaf0f6;
+  box-shadow: 0 0 16px #EAEFF5;
 }
 
 .fa-check-circle {
@@ -65,8 +66,8 @@ h2 {
 }
 
 h3 {
-    color: #33475B;
-    font-size: 25px;
+  color: #33475B;
+  font-size: 25px;
 }
 
 li {
@@ -130,10 +131,11 @@ li {
   background-color: white;
 }
 .nav-bottom {
-  padding: 3% 0;
+  padding: 2% 0;
 }
 .logo {
   display: inline-block;
+  margin-bottom: 10p   x;
 }
 .nav-arrows{
   display: inline-block;
@@ -216,6 +218,7 @@ li {
 
 .freehub {
   height: 300px;
+
 }
 
 /* box freehub */
@@ -265,7 +268,7 @@ li {
 }
 .box-right li {
   list-style: none;
-  margin-top: 40px;
+  margin-top: 30px;
   padding: 2%;
   font-weight: 500;
   color: #405164;
@@ -323,6 +326,50 @@ li {
 }
 /* /sezione cubo  */
 
+/* sezione grid  */
+
+.grid {
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  height: 600px;
+
+}
+.grid-title h3 {
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+  font-size: 35px;
+}
+.grid-title p {
+  color: white;
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.box-grid {
+  width: 25%;
+  height: 150px;
+  text-align: center;
+  border-right: 2px solid white;
+  float: left;
+}
+
+
+.number {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+
+.box-grid p {
+  color: white;
+}
+
+.small {
+  font-size: 13px;
+}
+/* /sezione grid  */
 
 
 
