@@ -87,7 +87,7 @@ li {
 /* nav top */
 
 .nav-top {
-  padding: 3% 0;
+  padding: 2% 0;
   position: relative;
 }
 
@@ -120,9 +120,11 @@ li {
   position: relative;
 }
 
-#login {
+
+#login a {
   background-color: white;
-  color:
+  border: 2px solid #FE775A;
+  color:  #FE775A;
 }
 /* /nav top */
 
@@ -162,11 +164,16 @@ li {
   width: 100%;
   background-image: url('../img/jumbotron.png');
   position: relative;
+  background-position-x: -100%;
+  background-repeat: no-repeat;
 }
+
+
+
 
 .titolo {
  width: 50%;
- margin: 0 7%;
+ margin-left: 1%;
  padding-top: 8%;
 
 }
@@ -191,11 +198,13 @@ li {
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
 }
+
 /*/ intestazione */
-
 /* corpo della pagina */
-
 /* sezione cubo  */
+
+
+
 
 .cube {
   background-color: #F4F9FD;
@@ -365,6 +374,7 @@ li {
 
 .box-grid p {
   color: white;
+  margin-bottom: 10px;
 }
 
 .small {
@@ -456,3 +466,30 @@ li {
 /*/ container img e tiolo-bottom */
 /* /sezione customers */
 /* /corpo della pagina */
+
+/* pié di pagina */
+
+footer {
+  margin-top: 100px;
+  height: 100vh;
+  background-color: #32495B;
+
+}
+.footer-list {
+  height: 500px;
+  background-color: red;
+  padding-top: 2%;
+}
+
+.col-list {
+  width: 25%;
+  background-color: black;
+  float: left;
+  height: 312px;
+
+}
+.center {
+
+}
+
+/* /pié di pagina */
