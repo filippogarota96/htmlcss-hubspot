@@ -471,32 +471,28 @@ li {
 
 footer {
   margin-top: 100px;
-
+  height: 600px;
   background-color: #32495B;
-
 }
+
+/* stile container delle liste incolonnate */
 .footer-list {
   height: 400px;
   padding-top: 2%;
 
 }
-
-
 .col-list {
   width: 24%;
   float: left;
   height: 312px;
   font-weight: bold;
-
 }
-
 .col-list:nth-child(2),
 .col-list:nth-child(3),
 .col-list:nth-child(4) {
   width: 20%;
   margin-left: 5%;
 }
-
 .col-list ul li:nth-child(6) {
   margin-top: 25px;
 }
@@ -506,7 +502,6 @@ footer {
   color: #32495B;
   border: none;
 }
-
 .col-list p {
   color: white;
   margin: 15px 0;
@@ -518,14 +513,7 @@ footer {
   font-size: 13px;
 
 }
-.foot-lang {
-  /* text-align: center; */
-  width:
-}
-.foot-lang p {
-  display: inline-block;
-  color: white;
-}
+
 
 .col-list li:nth-child(7) ul {
   margin-top: 5%;
@@ -540,5 +528,55 @@ footer {
   color: white;
   font-size: 18px;
 }
+/* /stile container delle liste incolonnate */
+
+.foot-lang {
+  text-align: center;
+
+}
+
+/* lingue */
+
+.foot-lang p {
+  display: inline-block;
+  padding: 1% 1%;
+  font-size: 13px;
+}
+
+.foot-lang a {
+  color:#CBD6E2;
+}
+/* lingue */
+
+
+/* pié di pagina bottom */
+.copyright {
+  margin-top: 20px;
+  float: left;
+}
+
+.copyright p {
+  color: white;
+  padding: 1% 0;
+  font-size: 12px;
+}
+
+.legal {
+  float: right;
+  margin-top: 20px;
+  width: 20%;
+  text-align: right;
+}
+
+.legal p {
+  display: inline-block;
+  padding: 0 2%;
+
+}
+.legal a {
+  color: #CBD6E2;
+}
+
+/* pié di pagina bottom */
 
 /* /pié di pagina */
