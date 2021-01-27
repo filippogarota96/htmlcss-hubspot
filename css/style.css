@@ -110,17 +110,21 @@ li {
   display: inline-block;
   width: 30%;
   position:absolute;
-  right: 10px;
+  right: 0;
+  text-align: right;
 }
 
 .nav-buttons li {
   display: inline-block;
   list-style: none;
-  margin: 0 2%;
+  margin: 0 4%;
   position: relative;
 }
 
+.search {
+  color: #00A4BD;
 
+}
 #login a {
   background-color: white;
   border: 2px solid #FE775A;
@@ -137,7 +141,7 @@ li {
 }
 .logo {
   display: inline-block;
-  margin-bottom: 10p   x;
+  margin-bottom: 10px;
 }
 .nav-arrows{
   display: inline-block;
@@ -157,27 +161,22 @@ li {
   margin-left: 10px;
 }
 /* /nav bottom */
+/* hero */
 
 .hero {
   background-color:#FFF2EE;
-  height: 612px;
+  height:100vh;
   width: 100%;
   background-image: url('../img/jumbotron.png');
   position: relative;
-  background-position-x: -100%;
+  background-position: 1px bottom;
   background-repeat: no-repeat;
 }
 
-
-
-
 .titolo {
- width: 50%;
- margin-left: 1%;
- padding-top: 8%;
-
+  width: 50%;
+  padding-top: 6%;
 }
-
 .titolo p {
   margin: 4% 0%;
 }
@@ -186,6 +185,7 @@ li {
   margin-top: 7%;
   padding: 10px 15px;
 }
+
 .titolo .btn a {
   margin-top: 7%;
   padding: 20px 30px;
@@ -197,14 +197,14 @@ li {
   width: 100%;
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
+  position: absolute;
+  bottom: 0;
 }
 
+/* /hero */
 /*/ intestazione */
 /* corpo della pagina */
 /* sezione cubo  */
-
-
-
 
 .cube {
   background-color: #F4F9FD;
