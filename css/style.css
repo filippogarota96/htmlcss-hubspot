@@ -191,7 +191,8 @@ li {
   padding: 20px 30px;
 }
 
-#band {
+.hero::after {
+  content: '';
   background-color: #AFEBE4;
   height: 90px;
   width: 100%;
@@ -330,7 +331,7 @@ li {
 .col a {
   padding: 15px 25px;
 }
-.col-center {
+.col:nth-child(2) {
   margin: 50px 5%;
 }
 /* /sezione cubo  */
@@ -396,14 +397,11 @@ li {
 
 /* container loghi  */
 
-.logos {
-  margin-left: 14%;
-}
 .customers-left {
   width: 19%;
   float: left;
   margin-right: 9%;
-  margin-left: 2%;
+  padding-left: 3%;
 }
 
 .customers-left h2 {
@@ -412,11 +410,13 @@ li {
 }
 
 .customers-right {
-  width: 70%;
-  float: left;
+  width: 65%;
+  float: right;
   margin-top: 13px;
 
 }
+
+
 
 
 .logo-customer {
@@ -530,12 +530,12 @@ footer {
 }
 /* /stile container delle liste incolonnate */
 
+/* lingue */
 .foot-lang {
   text-align: center;
 
 }
 
-/* lingue */
 
 .foot-lang p {
   display: inline-block;
